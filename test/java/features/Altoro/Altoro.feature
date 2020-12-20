@@ -1,4 +1,4 @@
-Feature: Test Altoto flow
+Feature: Test  flow
 
   @wp
   Scenario Outline: Test Home flow navigation and IMessage Content
@@ -12,7 +12,7 @@ Feature: Test Altoto flow
       | Westpac Home Page | Retirement Calculator Page |
 
   @wp
-  Scenario Outline: Test that the users are able to plan their investments better.
+  Scenario Outline: Test that the Employed users are able to plan their investments better.
     Given I login and navigate to the "<pageName>" page
     When I hover the mouse over Kiwisaver link in the menu bar
     When I click Get Started Button on Calculators page
@@ -28,7 +28,7 @@ Feature: Test Altoto flow
       | Westpac Home Page | Retirement Calculator Page |
 
   @wp
-  Scenario Outline: Test that the users are able to plan their investments better.
+  Scenario Outline: Test that the Self-Employed users are able to plan their investments better.
     Given I login and navigate to the "<pageName>" page
     When I hover the mouse over Kiwisaver link in the menu bar
     When I click Get Started Button on Calculators page
@@ -46,7 +46,7 @@ Feature: Test Altoto flow
       | Westpac Home Page | Retirement Calculator Page |
 
   @wp
-  Scenario Outline: Test that the users are able to plan their investments better.
+  Scenario Outline: Test that the Not Employed users are able to plan their investments better.
     Given I login and navigate to the "<pageName>" page
     When I hover the mouse over Kiwisaver link in the menu bar
     When I click Get Started Button on Calculators page
